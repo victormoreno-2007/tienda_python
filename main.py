@@ -7,7 +7,7 @@ def contar(num):
 
 
 numeros = (input('digite el numero deseado '))
-print(f'el numero  esta conformado por {contar(int(numeros))} numeros')
+print(f'el numero  esta conformado por {len(numeros)} numeros')
 pares = 0
 impares = 0
 suma = 0
